@@ -1,0 +1,42 @@
+.owl {
+    width: 1440px;
+    height: 300px;
+    margin: 62px auto 100px;
+    .container {
+        margin: 0 auto;
+    }
+    a {
+        cursor: zoom-in;
+    }
+    img {
+        &:hover {
+            opacity: .7;
+        }
+    }
+}
+
+.slide-one .owl-stage-outer {
+    position: relative;
+    width: 910px;
+    margin: 0 auto;
+}
+.owl-prev {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -86px;
+}
+.owl-next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: -86px;
+}
+.owl-carousel .owl-nav .owl-prev:hover {
+    background: transparent;
+    background: url(../icons/arrow_left.svg);
+}
+.owl-carousel .owl-nav .owl-next:hover {
+    background: transparent;
+    background-image: url(../icons/arrow_right.svg);
+}
