@@ -129,14 +129,14 @@
         top: -35px;
         right: 9px;
         font-size: 80px;
-        color: #444444;
+        color: #FFF9EB;
         cursor: pointer;
     }
     &__item {
         width: 606px;
         height: 65px;
         padding: 20px 0 0 20px;
-        background: #D9D9D9;
+        background: $main-color;
     }
     &__items{
         display: grid;
@@ -155,7 +155,10 @@
         column-gap: 5px;
     }
     &__descr {
-        padding: 20px 0;
+        padding: 20px 20px;
+    }
+    input:focus{
+        outline-color: #0088CE;
     }
 }
 .modalthanks {
